@@ -1,0 +1,23 @@
+dog = "cuddly"
+ 
+if dog == "hungry"
+  puts "Refilling food bowl."
+elsif dog == "thirsty"
+  puts "Refilling water bowl."
+elsif dog == "playful"
+  puts "Playing tug-of-war."
+elsif dog == "cuddly"
+  puts "Snuggling."
+else
+  puts "Reading newspaper."
+end
+//////////////////////////////////////////////////
+    function sayHiToGrandma(string) {
+      if (string === string.toLowerCase()) {
+        return ('I can\'t hear you!')
+      } else if (string === string.toUpperCase()) {
+        return ('YES INDEED!')
+      }
+        return ('I love you, too.')
+    }
+    ////////////////////////////////////
